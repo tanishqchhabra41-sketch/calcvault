@@ -46,10 +46,12 @@ python app.py
 ## Screenshots
 
 ### Calculator
+<img width="524" height="707" alt="Screenshot 2026-05-26 121446" src="https://github.com/user-attachments/assets/44367c5d-6e3c-496b-80a4-f33f525ca6fe" />
 
-![Calculator](images/Screenshot 2026-05-26 121446)
 
 ### Secret Vault
+<img width="708" height="864" alt="Screenshot 2026-05-26 121512" src="https://github.com/user-attachments/assets/c1bf7b77-c4bd-4915-a84d-1c88ac56e830" />
+
 
 ![Vault](images/Screenshot 2026-05-26 121512)
 ### project li 
