@@ -1,96 +1,103 @@
 body{
+
     margin:0;
     padding:0;
-    background:#0f0f0f;
-    font-family:Arial;
+
+    background:#111;
+
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;
-    color:white;
-}
 
-/* CALCULATOR */
+    height:100vh;
+
+    font-family:Arial;
+}
 
 .calculator{
+
+    width:340px;
+
     background:#1c1c1c;
-    padding:25px;
-    border-radius:20px;
-    width:320px;
-    box-shadow:0 0 20px rgba(0,0,0,0.5);
+
+    border-radius:25px;
+
+    padding:20px;
+
+    box-shadow:
+    0 0 30px rgba(0,0,0,0.5);
 }
 
-.calculator h1{
-    text-align:center;
+.display{
+
     margin-bottom:20px;
 }
 
-#display{
+#screen{
+
     width:100%;
-    height:60px;
-    font-size:24px;
-    margin-bottom:20px;
+    height:80px;
+
     border:none;
-    border-radius:10px;
-    padding-left:10px;
-    background:#2b2b2b;
+
+    border-radius:15px;
+
+    background:#2a2a2a;
+
     color:white;
+
+    font-size:32px;
+
+    text-align:right;
+
+    padding-right:15px;
+
+    box-sizing:border-box;
 }
 
 .buttons{
+
     display:grid;
+
     grid-template-columns:repeat(4,1fr);
-    gap:10px;
+
+    gap:12px;
 }
 
 button{
-    height:60px;
-    font-size:20px;
+
+    height:65px;
+
     border:none;
-    border-radius:10px;
+
+    border-radius:18px;
+
     background:#333;
+
     color:white;
+
+    font-size:24px;
+
     cursor:pointer;
+
     transition:0.2s;
 }
 
 button:hover{
-    background:#555;
+
+    background:#444;
 }
 
-/* SETUP */
+.equal{
 
-.setup-box,
-.vault-box{
-    background:#1c1c1c;
-    padding:30px;
-    border-radius:20px;
-    width:400px;
+    background:#ff9500;
+
+    grid-row:span 2;
+
+    height:142px;
 }
 
-.setup-box input{
-    width:100%;
-    height:50px;
-    margin-bottom:20px;
-    border:none;
-    border-radius:10px;
-    padding-left:10px;
-    font-size:18px;
-    background:#2b2b2b;
-    color:white;
-}
+.zero{
 
-/* VAULT */
-
-textarea{
-    width:100%;
-    height:300px;
-    border:none;
-    border-radius:10px;
-    padding:15px;
-    background:#2b2b2b;
-    color:white;
-    font-size:16px;
-    resize:none;
-    margin-bottom:20px;
+    grid-column:span 2;
 }
