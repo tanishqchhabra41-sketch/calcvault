@@ -43,3 +43,12 @@ gcc calc.c -o calc
 Run app:
 
 python app.py
+## Screenshots
+
+### Calculator
+
+![Calculator](images/Screenshot 2026-05-26 121446)
+
+### Secret Vault
+
+![Vault](images/Screenshot 2026-05-26 121512)
