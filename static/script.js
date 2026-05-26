@@ -42,9 +42,9 @@ function calculate(){
 
     .then(data => {
 
-        if(data === "VAULT"){
+        if(data.trim() === "VAULT"){
 
-            alert("Secret Vault Opened 🔒");
+            window.location.href = "/vault";
         }
 
         else{
