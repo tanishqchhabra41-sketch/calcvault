@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>CalcVault</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <div class="display">
+        <input type="text" id="screen" readonly>
+    </div>
+
+    <div class="buttons">
+
+        <button onclick="clearScreen()">C</button>
+        <button onclick="append('/')">÷</button>
+        <button onclick="append('*')">×</button>
+        <button onclick="removeLast()">⌫</button>
+
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button onclick="append('-')">−</button>
+
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button onclick="append('+')">+</button>
+
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+
+        <button class="equal"
+                onclick="calculate()">=</button>
+
+        <button onclick="append('0')"
+                class="zero">0</button>
+
+        <button onclick="append('.')">.</button>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
