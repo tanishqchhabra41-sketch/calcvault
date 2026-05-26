@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Secret Vault</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="vault-box">
+
+    <h1>🔒 Secret Vault</h1>
+
+    <form method="POST" action="/save_notes">
+
+        <textarea name="notes" placeholder="Write your secret notes here...">{{ notes }}</textarea>
+
+        <button type="submit">Save Notes</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
